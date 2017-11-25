@@ -1,0 +1,41 @@
+url: http://jessbird.me
+baseurl: /
+
+# Site settings
+title: Jess Bird
+email: jessannbird@gmail.com
+description: "Portfolio site for Jess Bird"
+
+# for alternate contact include
+twitter_username: itsjessann
+github_username: jestann
+
+# Team names, titles and social links
+people:
+- name: take out
+  pic: 1
+  position: take out
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: https://github.com/jestann
+  - title: linkedin
+    url: https://linkedin.com/in/jessannbird
+  - title: stack-overflow
+    url: https://stackoverflow.com/users/6890046/jess-b
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: take out
+
+# Build settings
+markdown: kramdown
+permalink: pretty
