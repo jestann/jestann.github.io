@@ -1,5 +1,5 @@
-url: http://jessbird.me
-baseurl: /
+url: "http://jessbird.me"
+baseurl: ""
 
 # Site settings
 title: Jess Bird
@@ -39,3 +39,21 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+sass:
+  sass_dir: _sass
+  style: :compressed
+collections:
+  portfolio:
+    output: true
+
+# Pagination
+plugins: [jekyll-paginate]
+paginate: 5
+paginate_path: "blog/page:num"
+str_next: "Next"
+str_prev: "Prev"
+str_continue_reading: "Continue reading"
+
+# Scripts
+# google_analytics: UA-89833931-1 # Tracking ID, e.g. "UA-000000-01"
+# katex: true # Enable if using math markup

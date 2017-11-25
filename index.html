@@ -2,18 +2,11 @@
 layout: front
 ---
 
+<!--
 <div class="home">
-  <h1>Projects</h1>
-  <ul class="projects">
-    {% for project in site.projects %}
-      <li>
-        <span class="project-date">{{ project.date | date: "%b %-d, %Y" }}</span>
-        <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </div>
+-->
 
 <!-- changed css class names from posts and post-date and post-link to projects and project-date and project-link -->
 <!-- removed style.css from layouts and renamed layout.css and put in css folder -->
