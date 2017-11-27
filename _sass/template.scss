@@ -284,9 +284,9 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: $primary;
+    color: #fff;
     background-attachment: scroll;
-    background-image: url('/img/front/pencils.jpg');
+    background-image: url('/img/front/shavings.png');
     background-position: center top;
     background-repeat: no-repeat;
     -webkit-background-size: 100% auto;
@@ -319,7 +319,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 200px;
+        padding-top: 350px;
         padding-bottom: 200px;
     }
 
@@ -758,7 +758,7 @@ aside.clients img {
 
 #contact {
     background-color: #222;
-    background-image: url('/img/map-image.png');
+    background-image: url('/img/front/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
     padding: 5%;
