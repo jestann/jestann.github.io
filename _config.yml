@@ -3,27 +3,16 @@ baseurl: ""
 
 # Site settings
 title: Jess Bird
-email: jessannbird@gmail.com
 description: "Portfolio site for Jess Bird"
 
-# for alternate contact include
-twitter_username: itsjessann
-github_username: jestann
+# Contact
+email: jessannbird@gmail.com
+github: https://github.com/jestann
+linkedin: https://linkedin.com/in/jessannbird
+stack-overflow: https://stackoverflow.com/users/6890046/jess-b
 
-# Team names, titles and social links
-people:
-- name: take out
-  pic: 1
-  position: take out
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Fix this section to match contact and footer.
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, twitter, etc.)
 social:
   - title: github
     url: https://github.com/jestann
@@ -31,10 +20,6 @@ social:
     url: https://linkedin.com/in/jessannbird
   - title: stack-overflow
     url: https://stackoverflow.com/users/6890046/jess-b
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: take out
 
 # Build settings
 markdown: kramdown
@@ -48,11 +33,10 @@ collections:
 
 # Pagination
 plugins: [jekyll-paginate]
-paginate: 5
+paginate: 3
 paginate_path: "blog/page:num"
-str_next: "Next"
-str_prev: "Prev"
-str_continue_reading: "Continue reading"
+str_next: ">>"
+str_prev: "<<"
 
 # Scripts
 # google_analytics: UA-89833931-1 # Tracking ID, e.g. "UA-000000-01"
