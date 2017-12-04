@@ -1,22 +1,38 @@
-/* Built from Start Bootstrap Agency Theme (http://startbootstrap.com) */
+/* Built on Start Bootstrap Agency Theme (http://startbootstrap.com) */
 
 /* Variables */
+
 $primary: #fed136;
 $secondary: #fec503;  
 $primary-dark: darken($primary, 20%);
 $secondary-dark: #333;
 $muted: #777;
+$aqua: #05b9d2;
 
 $font-family-primary: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-family-secondary: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-family-cursive: "Kaushan Script","Helvetica Neue", Helvetica, Arial, cursive;
-/* End Variables */
 
+
+/* General */
 
 body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: $secondary-dark;
+    webkit-tap-highlight-color: $primary;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+.bg-primary {
+    background-color: $primary;
 }
 
 .text-muted {
@@ -70,17 +86,8 @@ h6 {
     margin: 0 auto;
 }
 
-.bg-light-gray {
-    background-color: #f7f7f7;
-}
 
-.bg-darkest-gray {
-    background-color: #222;
-}
-
-.bg-primary {
-    background-color: $primary;
-}
+/* Buttons */
 
 .btn-primary {
     border-color: $primary;
@@ -183,6 +190,9 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+
+/* Navbar */
+
 .navbar-default {
     border-color: transparent;
     background-color: #222;
@@ -278,6 +288,9 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+
+/* Header */
+
 header {
     text-align: center;
     color: #fff;
@@ -337,6 +350,9 @@ header .intro-text .intro-heading {
     }
 }
 
+
+/* Section */
+
 section {
     padding: 4% 0;
 }
@@ -364,6 +380,39 @@ section h3.section-subheading {
     margin: 15px 0;
     text-transform: none;
 }
+
+
+/* About */
+
+#about {
+    padding-top: 3%;
+}
+
+#about .main-text {
+    padding-top: 2%;
+}
+
+#about .main-text p {
+    font-family: serif;
+    font-size: 2.4rem;
+    line-height: 1.2;
+}
+
+
+/* Tech */
+
+.icon-aqua {
+    color: $aqua;
+}
+
+.tech-icon:hover .icon-aqua {
+    color: $primary;
+}
+
+/* add tech modal */
+
+
+/* Portfolio */
 
 #portfolio .portfolio-item {
     right: 0;
@@ -441,6 +490,9 @@ section h3.section-subheading {
         margin: 0 0 30px;
     }
 }
+
+
+/* Posts */
 
 section#blog {
     padding: 5%;
@@ -752,6 +804,8 @@ aside.clients img {
 
 */
 
+/* Contact */
+
 #contact {
     background-color: #222;
     background-image: url('/img/front/map-image.png');
@@ -783,6 +837,8 @@ aside.clients img {
     color: $primary;
 }
 
+
+/* Footer */
 
 footer {
     padding: 25px 0;
@@ -835,6 +891,9 @@ footer ul.quicklinks {
 .btn:active:focus {
     outline: 0;
 }
+
+
+/* Portfolio Modal */
 
 .portfolio-modal .modal-content {
     padding: 100px 0;
@@ -907,6 +966,9 @@ footer ul.quicklinks {
     transform: rotate(90deg);
 }
 
+
+/* General Browser Styling */
+
 ::-moz-selection {
     text-shadow: none;
     background: $primary;
@@ -923,8 +985,4 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
-}
-
-body {
-    webkit-tap-highlight-color: $primary;
 }
