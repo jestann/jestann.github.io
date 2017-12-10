@@ -3,7 +3,7 @@ baseurl: ""
 
 # Site settings
 title: Jess Bird
-description: "Portfolio site for Jess Bird"
+description: "Portfolio"
 
 # Contact
 email: jessannbird@gmail.com
@@ -30,11 +30,13 @@ sass:
 collections:
   portfolio:
     output: true
+  pages:
+    output: true
 
 # Pagination
 plugins: [jekyll-paginate]
 paginate: 3
-paginate_path: "blog/page:num"
+paginate_path: "posts/page:num"
 str_next: ">>"
 str_prev: "<<"
 

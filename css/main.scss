@@ -1,5 +1,23 @@
 ---
 ---
 
+/* Bootstrap */
 @import 'vendor/bootstrap.min.css';
-@import 'template.scss';
+
+/* General */
+@import 'variables.scss'
+@import 'template.scss'
+
+/* Elements */
+@import 'elements/buttons.scss';
+@import 'elements/navbar.scss';
+@import 'elements/section.scss';
+
+/* Includes */
+@import 'includes/header.scss';
+@import 'includes/about.scss';
+@import 'includes/tech.scss';
+@import 'includes/portfolio.scss';
+@import 'includes/posts.scss';
+@import 'includes/contact.scss';
+@import 'includes/footer.scss';

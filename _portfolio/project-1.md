@@ -1,14 +1,12 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Chateau
+subtitle: Chat app on AngularJS and Firebase
 layout: default
 modal-id: 1
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: chateau.png
+thumbnail: chateau-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+project-date: February 2017
+category: AngularJS
+description: 
 ---

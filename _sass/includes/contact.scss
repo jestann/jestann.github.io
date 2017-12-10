@@ -1,0 +1,32 @@
+/* Contact */
+
+#contact {
+    background-color: #222;
+    background-image: url('/img/front/map-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+#contact .section-heading {
+    color: #fff;
+}
+
+#contact .social {
+    padding-bottom: 5%;
+}
+
+#contact .social-buttons-lg a {
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+#contact .social-buttons-lg a:hover,
+#contact .social-buttons-lg a:focus,
+#contact .social-buttons-lg a:active {
+    color: $primary;
+}
