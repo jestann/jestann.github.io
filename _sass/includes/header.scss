@@ -14,7 +14,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 75px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
@@ -30,9 +30,9 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: $font-family-primary;
-    font-size: 50px;
+    font-size: 25px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 25px;
 }
 
 @media(min-width:768px) {
