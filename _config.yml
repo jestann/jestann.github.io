@@ -4,6 +4,7 @@ baseurl: ""
 # Site settings
 title: Jess Bird
 description: "Portfolio"
+about_me: "Hi, I'm Jess. I'm always looking for ways to make things cleaner, more beautiful, and more efficient, because I'm fascinated by the connections between people and machines. I’m looking for opportunities to build powerful tech that changes things forward."
 
 # Contact
 email: jessannbird@gmail.com

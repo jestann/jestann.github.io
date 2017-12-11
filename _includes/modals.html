@@ -1,5 +1,5 @@
  <!-- Portfolio Modals -->
- {% for project in site.projects %}
+ {% for project in site.portfolio %}
     <div class="portfolio-modal modal fade" id="portfolioModal{{ project.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -17,17 +17,14 @@
                             <img src="img/portfolio/{{ project.img }}" class="img-responsive img-centered" alt="{{ project.alt }}">
                             <p>{{ project.description }}</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ project.client }}</a>
-                                    </strong>
+                                <li>Built On:
+                                    <strong>{{ project.framework }}</strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ project.project-date }}</a>
-                                    </strong>
+                                    <strong>{{ project.project-date }}</strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ project.category }}</a>
-                                    </strong>
+                                <li>Repository:
+                                    <strong><a href="{{ project.link }}">{{ project.repository }}</a></strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
