@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page not found</title>
+    <title>AngularJS and process.env</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Portfolio">
-    <link rel="canonical" href="http://0.0.0.0:8080/404.html">
+    <link rel="canonical" href="http://0.0.0.0:8080/2017/10/12/angularjs-and-process-env/">
 
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
@@ -63,13 +63,34 @@
     </nav>
     <div class="main-content">
       <article >
-  <header style="background-image: url('/')">
-    <h1 class="title">Page not found</h1>
+  
+  <header>
+    <h1 class="section-heading">AngularJS and process.env</h1>
+    <p class="meta">
+    October 12, 2017
+    
+    </p>
   </header>
-  <section class="post-content"><p>Sorry, the requested page wasn’t found on the server.</p>
+  <section class="post-content"><p>So… I’ve been working on getting an AngularJS/Firebase app I built awhile back to host correctly on Heroku, and I ran into a slight problem related to configuration variables.</p>
+
+<p>See… I’m used to taking advantage of the awesome collaboration between Heroku and a Node.js app and just typing stuff like</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>configVariable = process.env.CONFIG_VARIABLE_IN_ALL_CAPS;
+doSomethingWithThe(configVariable);
+initializeTheAppWithThe(configVariable);
+</code></pre></div></div>
+
+<p>That way I can avoid pushing to my public repository all sorts of interesting initialization secret keys… and I can use different configuration variables depending on if I am hosting it to Heroku or running it locally… yada yada. I was also using Grunt as a task runner for running the development server and letting Heroku take care of the conversioning from my Grunt server to the hosting server.</p>
+
+<p>But… it turns out, you can’t actually type this sort of thing directly into a script that in the course of Angular events gets imported into an html document to be rendered by the browser. Oops, browsers don’t run server code and access environment variables.</p>
+
+<p>Okay… yeah, I get that.</p>
+
+<p>It did however take me some time to figure out that’s where these trusty configuration scripts were getting run. And after a lot of interesting internet research and some stack overflow questioning, I still couldn’t figure out why I kept getting the error that something about my app couldn’t load reliable <code class="highlighter-rouge">process.env</code>.</p>
+
+<p>… to be continued …</p>
 </section>
 </article>
-
     </div>
       <footer>
         <div class="container">
