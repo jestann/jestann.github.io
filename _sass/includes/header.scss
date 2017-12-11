@@ -4,9 +4,9 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('/img/front/pencils-laptop.png');
-    background-position: center top;
+    background-image: url('/img/front/pencils-laptop-narrow.png');
     background-repeat: no-repeat;
+    background-position: center top;
     -webkit-background-size: 100% auto;
     -moz-background-size: 100% auto;
     background-size: 100% auto;
@@ -21,9 +21,9 @@ header .intro-text {
 header .intro-text .intro-lead-in {
 /*  margin-bottom: 25px; */
     font-family: $font-family-secondary;
-    font-size: 22px;
+    font-size: 10px;
     font-style: italic;
-    line-height: 22px;
+    line-height: 10px;
 }
 
 header .intro-text .intro-heading {
@@ -36,6 +36,10 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+    header {
+        background-image: url('/img/front/pencils-laptop.png');
+    }
+    
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 100px;
