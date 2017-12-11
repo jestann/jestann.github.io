@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
+
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
-  <header style="background-image: url('img/posts/{{ page.feature-img }}')">
-    <h1 class="title">{{ page.title }}</h1>
+  {% if page.feature-img %}<img src="{{ site.baseurl }}/img/posts/{{ page.feature-img }}">{% endif %}
+  <header>
+    <h1 class="section-heading">{{ page.title }}</h1>
     <p class="meta">
     {{ page.date | date: "%B %-d, %Y" }}
     {% if page.author %} - {{ page.author }}{% endif %}

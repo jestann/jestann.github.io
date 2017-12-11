@@ -1,0 +1,53 @@
+/* Post Page */
+
+.section-heading {
+    font-size: 4rem;
+}
+
+.posts-header {
+    text-align: center;
+    color: $primary;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+    color: $primary-dark;
+}
+
+.main-content {
+    padding: 20% 5%;
+    font-size: 3rem;
+    font-family: serif;
+    color: $secondary-dark;
+}
+
+.meta {
+    color: $primary-dark;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1000px) {
+    .post-teaser {
+        padding: 2% 13%;
+    }
+}
+
+.pagination .button {
+    margin: 0 1.5em;
+    i {
+        vertical-align: middle;
+    }
+}
+
+.pagination {
+    padding: 5% 20% 0 20%;
+    text-align: center;
+}
