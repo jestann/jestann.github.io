@@ -1,0 +1,87 @@
+/* Modified Navbar for Ordinary Pages */
+
+.small-navbar.navbar-default {
+    border-color: transparent;
+    background-color: #222;
+}
+
+.small-navbar.navbar-default .navbar-brand {
+    font-family: $font-family-cursive;
+    color: #fff;
+}
+
+.small-navbar.navbar-default .navbar-brand:hover,
+.small-navbar.navbar-default .navbar-brand:focus,
+.small-navbar.navbar-default .navbar-brand:active,
+.small-navbar.navbar-default .navbar-brand.active {
+    border-radius: 5px;
+    color: #fff;
+    background-color: $primary;
+}
+
+.small-navbar.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.small-navbar.navbar-default .navbar-toggle {
+    border-color: $primary;
+    background-color: $primary;
+}
+
+.small-navbar.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.small-navbar.navbar-default .navbar-toggle:hover,
+.small-navbar.navbar-default .navbar-toggle:focus {
+    background-color: $secondary;
+}
+
+.small-navbar.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: $font-family-primary;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    -webkit-transition: all ease .35s;
+    -moz-transition: all ease .35s;
+    transition: all ease .35s;
+}
+
+.small-navbar.navbar-default .nav li a:hover,
+.small-navbar.navbar-default .nav li a:focus {
+    border-radius: 3px;
+    color: #fff;
+    background-color: $primary;
+}
+
+@media(min-width:768px) {
+    .small-navbar.navbar-default {
+        padding: 15px 0;
+        border: 0;
+        background: #222;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .small-navbar.navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .small-navbar.navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .small-navbar.navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .small-navbar.navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
