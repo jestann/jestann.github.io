@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Little About Me
-date: 12-09-2017
+date: 09-12-2017
 ---
 
 I am a full stack web developer, inspired by new technology and drawn to the connection between people and machines. 

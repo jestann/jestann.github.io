@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AngularJS and process.env
-date: 12-10-2017
+date: 10-12-2017
 ---
 
 So... I've been working on getting an AngularJS/Firebase app I built awhile back to host correctly on Heroku, and I ran into a slight problem related to configuration variables.
