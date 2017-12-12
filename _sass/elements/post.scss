@@ -1,53 +1,65 @@
 /* Post Page */
 
-.section-heading {
+.post header {
+    margin: 0px;
+}
+
+.post .section-heading {
+    text-align: center;
     font-size: 4rem;
-}
-
-.posts-header {
-    text-align: center;
-    color: $primary;
-}
-
-h2 {
     padding: 10px;
-    text-align: center;
 }
 
-a:hover {
-    text-decoration: none;
+.post .meta {
     color: $primary-dark;
-}
-
-.main-content {
-    padding: 20% 5%;
-    font-size: 3rem;
-    font-family: serif;
-    color: $secondary-dark;
-}
-
-.meta {
-    color: $primary-dark;
-    font-size: 0.9em;
+    font-size: 2.5rem;
     letter-spacing: 0.1em;
     margin: 0;
     text-transform: uppercase;
 }
 
-@media (max-width: 1000px) {
-    .post-teaser {
-        padding: 2% 13%;
-    }
+.post .content {
+    padding: 5%;
+    font-size: 3rem;
+    font-family: $font-family-secondary;
+    color: $secondary-dark;
 }
 
-.pagination .button {
-    margin: 0 1.5em;
-    i {
-        vertical-align: middle;
-    }
+.post p {
+    font-size: 2rem;
 }
 
-.pagination {
-    padding: 5% 20% 0 20%;
-    text-align: center;
+.post a {
+    color: $primary;
+}
+
+.post a:hover {
+    text-decoration: none;
+    color: $primary-dark;
+}
+
+@media (min-width: 768px) {
+    .post header {
+        background-image: url("/img/posts/post-header-sm.png");
+        height: 200px;
+        margin: 5% 10%;
+        margin-bottom: 3%;
+    }
+    
+    .post .section-heading {
+        padding-top: 40px;
+    }
+    
+    .post .meta {
+        padding-bottom: 40px;
+    }
+    
+    .post .content {
+        padding: 0% 10%;
+    }
+    
+    .post p {
+        font-size: 1.8rem;
+        font-weight: normal;
+    }
 }
