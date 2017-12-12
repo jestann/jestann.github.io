@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 img: rereadit.png
-alt: rereadit is a Reddit clone on Rails
+img-alt: rereadit is a Reddit clone on Rails
 thumbnail: rereadit.png
 title: Rereadit
 subtitle: Reddit clone on Rails

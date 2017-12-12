@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 img: chateau.png
-alt: chateau is a chat app on AngularJS and Firebase
+img-alt: chateau is a chat app on AngularJS and Firebase
 thumbnail: chateau.png
 title: Chateau
 subtitle: Chat app on AngularJS and Firebase

@@ -2,7 +2,7 @@
 layout: default
 modal-id: 4
 img: chateau.png
-alt: Jive Race is a race app on React and the Jive Race API
+img-alt: Jive Race is a race app on React and the Jive Race API
 thumbnail: chateau.png
 title: Jive Race
 subtitle: Team-building race app on React

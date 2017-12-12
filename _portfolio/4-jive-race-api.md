@@ -2,7 +2,7 @@
 layout: default
 modal-id: 4
 img: rereadit.png
-alt: Jive Race API is built on Express and Mongoose
+img-alt: Jive Race API is built on Express and Mongoose
 thumbnail: rereadit.png
 title: Jive Race API
 subtitle: Race API built on Express and Mongoose

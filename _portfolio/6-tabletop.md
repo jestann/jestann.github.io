@@ -2,7 +2,7 @@
 layout: default
 modal-id: 6
 img: collab.png
-alt: Tabletop is a desktop app on Electron, NodeJS, and Javascript
+img-alt: Tabletop is a desktop app on Electron, NodeJS, and Javascript
 thumbnail: collab.png
 title: Tabletop
 subtitle: Desktop app on Electron and Javascript
