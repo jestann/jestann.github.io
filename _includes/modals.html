@@ -1,37 +1,26 @@
  <!-- Portfolio Modals -->
  {% for project in site.portfolio %}
-    <div class="portfolio-modal modal fade" id="portfolioModal{{ project.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
+    <div class="portfolio-modal container modal fade" id="portfolioModal{{ project.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="close-modal" data-dismiss="modal">x</div>
+        <div class="modal-body">
+            <h2><a href="{{ project.link }}">{{ project.title }}</a></h2>
+            <div class="project-description">{{ project.description }}</div>
+            <img src="img/portfolio/{{ project.img }}" class="main-img img-responsive" alt="{{ project.img-alt }}">
+            <div class="project-details">
+                <div>
+                    <span class="project-detail-label">Built On:</span> 
+                    <span class="project-detail-item">{{ project.framework }}</span>
+                </div>
+                <div>
+                    <span class="project-detail-label">Date:</span>
+                    <span class="project-detail-item">{{ project.project-date }}</span>
+                </div>
+                <div>
+                    <span class="project-detail-label">Repository:</span>
+                    <span class="project-detail-item"><a href="{{ project.link }}">{{ project.repository }}</a></span>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>{{ project.title }}</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/{{ project.img }}" class="img-responsive img-centered" alt="{{ project.alt }}">
-                            <p>{{ project.description }}</p>
-                            <ul class="list-inline item-details">
-                                <li>Built On:
-                                    <strong>{{ project.framework }}</strong>
-                                </li>
-                                <li>Date:
-                                    <strong>{{ project.project-date }}</strong>
-                                </li>
-                                <li>Repository:
-                                    <strong><a href="{{ project.link }}">{{ project.repository }}</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <button type="button" class="btn btn-default pull-right" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
         </div>
     </div>
 {% endfor %}
