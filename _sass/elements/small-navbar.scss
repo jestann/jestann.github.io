@@ -34,7 +34,7 @@
 
 .small-navbar.navbar-default .navbar-toggle:hover,
 .small-navbar.navbar-default .navbar-toggle:focus {
-    background-color: $secondary;
+    background-color: $primary;
 }
 
 .small-navbar.navbar-default .nav li a {
@@ -53,6 +53,18 @@
     border-radius: 3px;
     color: #fff;
     background-color: $primary;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: $primary;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: $secondary;
 }
 
 @media(min-width:768px) {
