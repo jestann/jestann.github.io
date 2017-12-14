@@ -55,14 +55,14 @@
     background-color: $primary;
 }
 
-.navbar-default .navbar-nav>.active>a {
+.small-navbar.navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
     background-color: $primary;
 }
 
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
+.small-navbar.navbar-default .navbar-nav>.active>a:hover,
+.small-navbar.navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
     background-color: $secondary;
 }
