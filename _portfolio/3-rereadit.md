@@ -3,7 +3,6 @@ layout: default
 modal-id: 3
 img: rereadit.png
 img-alt: rereadit is a Reddit clone on Rails
-thumbnail: rereadit.png
 title: Rereadit
 subtitle: Reddit clone on Rails
 description: A Reddit clone on Rails inspired by the political clout of the original. Rereadit features topics, posts, commenting, favoriting, voting, and email subscription.

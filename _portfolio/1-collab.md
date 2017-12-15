@@ -3,7 +3,6 @@ layout: default
 modal-id: 1
 img: collab.png
 img-alt: Collab is a chat app on AngularJS and Firebase
-thumbnail: collab.png
 title: Collab
 subtitle: Collaboration app on Rails
 description: A collaboration app on Rails. Collab allows users to create free public and paid private collaboration spaces. Differentiated collaborator permissions via Devise and Pundit. Accepts payment via Stripe. All spaces offer markdown rendering.
