@@ -1,0 +1,28 @@
+/* Modified Navbar for Other Pages
+
+.regular-page .navbar-default {
+    .navbar-brand:hover,
+    .navbar-brand:focus,
+    .navbar-brand:active,
+    .navbar-brand.active {
+        border-radius: 5px;
+        color: #fff;
+        background-color: $primary;
+    }
+    
+    .nav li a:hover,
+    .nav li a:focus {
+        border-radius: 3px;
+        color: #fff;
+        background-color: $primary;
+    }
+}
+
+@media(min-width:768px) {
+    .regular-page .navbar-default {
+        padding: 15px 0;
+        background: #222;
+    }
+}
+
+*/
