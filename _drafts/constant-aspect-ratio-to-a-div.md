@@ -1,8 +1,12 @@
 ---
 layout: post
-title: CSS Tricks
-date: 15-12-2018
+title: Constant Aspect Ratio to a Div
+date: 
 ---
+
+12.15.17
+
+I found the 
 
 Until I found this trick...
 
@@ -26,3 +30,4 @@ Until I found this trick...
 	right: 0;
 }
 ```
+
