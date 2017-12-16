@@ -1,68 +1,38 @@
-/* Header */
+/* Front Header */
 
-header {
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url('/img/front/pencils-laptop-narrow.png');
+.header-front {
+    background-image: url('/img/front/pencils-laptop-narrow-sm.png');
     background-repeat: no-repeat;
     background-position: center top;
+    background-attachment: scroll;
     -webkit-background-size: 100% auto;
     -moz-background-size: 100% auto;
     background-size: 100% auto;
     -o-background-size: 100% auto; 
-    margin-top: 25px;
+    margin-top: 60px;
 }
 
-header .intro-text {
-    padding-top: 75px;
-    padding-bottom: 30px;
+.header-front:before {
+	content: '';
+	display: block;
+	padding-top: 75%; 	/* for mobile ratio of 1000:835 */
 }
 
-header .intro-text .intro-lead-in {
-    visibility: hidden;
-    font-family: $font-family-secondary;
-    font-size: 3rem;
-    font-style: italic;
-    line-height: 3rem;
-}
-
-header .intro-text .intro-heading {
-    visibility: hidden;
-    text-transform: uppercase;
-    font-family: $font-family-primary;
-    font-size: 4rem;
-    font-weight: 700;
-    line-height: 4rem;
-    margin-bottom: 2%;
+.header-front .header-padding {
+	position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 }
 
 @media(min-width:768px) {
-    header {
+    .header-front {
         background-image: url('/img/front/pencils-laptop-thinner.png');
-        height: 350px;
         margin-top: 0px;
     }
     
-    header .intro-text {
-        margin-top: 300px;
-    }
-
-    header .intro-text .intro-lead-in {
-        visibility: hidden;
-        text-align: right;
-        margin-bottom: 25px;
-        font-family: $font-family-secondary;
-        font-size: 4rem;
-        font-style: italic;
-    }
-
-    header .intro-text .intro-heading {
-        visibility: hidden;
-        text-align: right;
-        margin-bottom: 50px;
-        font-family: $font-family-primary;
-        font-size: 3rem;
-        font-weight: 700;
+    .header-front:before {
+    	padding-top: 32%; 	/* for non-mobile ratio of 2000:640 */
     }
 }
