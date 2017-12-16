@@ -5,7 +5,7 @@
     {% for post in site.posts %}
     <div class="post-teaser">
       <div class="posts-header">
-        <h4><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+        <h4 class="posts-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
         <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
       </div>
       <div class="excerpt">
