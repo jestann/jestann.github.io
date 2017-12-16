@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="/css/main.css">
 
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/vendor/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -35,44 +35,33 @@
 
     <body id="page-top" class="index">
       <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Jess Bird</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden"><a href="#page-top"></a></li>
-                    <li><a class="page-scroll" href="#about">About</a></li>
-                    <li><a class="page-scroll" href="#technologies">Tech</a></li>
-                    <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
-                    <li><a class="page-scroll" href="#blog">Blog</a></li>
-                    <li><a class="page-scroll" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<nav class="navbar navbar-default navbar-fixed-top navbar-front">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-front-list">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">Jess Bird</a>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-          <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Jess Bird</div>
-                <div class="intro-heading">Full Stack Web Developer</div>
-                <!-- <a href="#services" class="page-scroll btn btn-xl">Further</a>-->
-            </div>
+        <div class="collapse navbar-collapse" id="navbar-front-list">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden"><a href="#page-top"></a></li>
+                <li><a class="page-scroll" href="#about">About</a></li>
+                <li><a class="page-scroll" href="#technologies">Tech</a></li>
+                <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+                <li><a class="page-scroll" href="#blog">Blog</a></li>
+                <li><a class="page-scroll" href="#contact">Contact</a></li>
+            </ul>
         </div>
-    </header>
-
+    </div>
+</nav>
+      <!-- Header -->
+<header class="header-front">
+    <div class="container header-padding"></div>
+</header>
       <section id="about" class="bg-primary">
     <div class="container">
         <div class="row">
@@ -96,126 +85,126 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-angularjs-plain fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">AngularJS</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-amazonwebservices-original fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">AWS</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-bootstrap-plain fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Bootstrap</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-css3-plain fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">CSS-3</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-express-original fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Express</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-grunt-line fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Grunt</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-gulp-plain fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Gulp</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-heroku-original fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Heroku</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-html5-plain fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">HTML-5</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-javascript-plain fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Javascript</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-jquery-plain fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">JQuery</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-mongodb-plain fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">MongoDB</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-nodejs-plain fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">NodeJS</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-python-plain fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Python</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-rails-plain fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Rails</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-react-original fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">React</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-ruby-plain fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Ruby</h4>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <span class="fa-stack fa-4x tech-icon">
                         <i class="fa fa-circle fa-stack-2x icon-aqua"></i>
                         <i class="devicon-sass-original fa-stack-1x fa-inverse"></i>
@@ -379,21 +368,21 @@
       <section id="contact">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Contact</h2>
                 <p class="contact-text">Here are all the ways we can talk.</p>
             </div>
-        <div class="social">
-            <div class="col-lg-3 text-center social-buttons-lg">
+        <div class="row text-center social">
+            <div class="col-xs-6 col-sm-3 col-md-3 text-center social-buttons-lg">
                 <a href="mailto:jessannbird@gmail.com"><i class="fa fa-envelope-o fa-3x"></i></a>
             </div>
-            <div class="col-lg-3 text-center social-buttons-lg">
+            <div class="col-xs-6 col-sm-3 col-md-3 text-center social-buttons-lg">
                 <a href="https://github.com/jestann"><i class="fa fa-github fa-3x"></i></a>
             </div>
-            <div class="col-lg-3 text-center social-buttons-lg">
+            <div class="col-xs-6 col-sm-3 col-md-3 text-center social-buttons-lg">
                 <a href="https://linkedin.com/in/jessannbird"><i class="fa fa-linkedin fa-3x"></i></a>
             </div>
-            <div class="col-lg-3 text-center social-buttons-lg">
+            <div class="col-xs-6 col-sm-3 col-md-3 text-center social-buttons-lg">
                 <a href="https://stackoverflow.com/users/6890046/jess-b"><i class="fa fa-stack-overflow fa-3x"></i></a>
             </div>
         </div>
@@ -588,10 +577,6 @@
     <script src="/js/jquery.easing.min.js"></script>
     <script src="/js/classie.js"></script>
     <script src="/js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="/js/jqBootstrapValidation.js"></script>
-    <script src="/js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="/js/agency.js"></script>
