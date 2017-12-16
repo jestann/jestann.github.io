@@ -28,11 +28,11 @@
 
 @media(min-width:768px) {
     .header-front {
-        background-image: url('/img/front/pencils-laptop-thinner.png');
+        background-image: url('/img/front/pencils-laptop-thin.png');
         margin-top: 0px;
     }
     
     .header-front:before {
-    	padding-top: 28%; 	/* for non-mobile ratio of thin at 2000:641 needs 32% ... while thinner at 1997:573 needs 28% */
+    	padding-top: 32%; 	/* for non-mobile ratio of thin at 2000:641 needs 32% ... while thinner at 1997:573 needs 28% */
     }
 }
