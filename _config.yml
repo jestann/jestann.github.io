@@ -34,11 +34,11 @@ collections:
     output: true
 
 # Pagination
-plugins: [jekyll-paginate]
-paginate: 3
-paginate_path: "posts/page:num"
-str_next: ">>"
-str_prev: "<<"
+# plugins: [jekyll-paginate]
+# paginate: 3
+# paginate_path: "posts/page:num"
+# str_next: ">>"
+# str_prev: "<<"
 
 # Scripts
 # google_analytics: UA-89833931-1 # Tracking ID, e.g. "UA-000000-01"
