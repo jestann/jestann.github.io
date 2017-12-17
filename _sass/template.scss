@@ -7,8 +7,19 @@ body {
     webkit-tap-highlight-color: $primary;
 }
 
-.bg-light-gray {
-    background-color: #f7f7f7;
+.bg-light-grey {
+    background-color: #eee;
+}
+
+.bg-grey {
+    background-image: url('/img/front/background.png');
+    background-repeat: no-repeat;
+    background-size: 105% 85%;
+    background-position: center bottom;
+}
+
+.bg-grey-sub {
+    padding-bottom: 1.7%;
 }
 
 .bg-darkest-gray {

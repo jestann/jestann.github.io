@@ -1,7 +1,7 @@
 /* Front Header */
 
 .header-front {
-    background-image: url('/img/front/pencils-laptop-narrow-sm.png');
+    background-image: url('/img/front/pencils-narrow-posterize-2.png');
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: scroll;
@@ -15,7 +15,7 @@
 .header-front:before {
 	content: '';
 	display: block;
-	padding-top: 75%; 	/* for mobile ratio of 1000:835 */
+	padding-top: 80%; 	/* for mobile ratio of 1003:756 */
 }
 
 .header-front .header-padding {
@@ -28,7 +28,7 @@
 
 @media(min-width:768px) {
     .header-front {
-        background-image: url('/img/front/pencils-laptop-thin-posterize-3.png');
+        background-image: url('/img/front/pencils-laptop-posterize-7.png');
         margin-top: 0px;
     }
     
