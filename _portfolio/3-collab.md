@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 1
+modal-id: 3
 img: collab.png
 img-alt: Collab is a chat app on AngularJS and Firebase
 title: Collab

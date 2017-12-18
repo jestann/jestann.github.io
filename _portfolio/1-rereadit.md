@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 3
+modal-id: 1
 img: rereadit.png
 img-alt: rereadit is a Reddit clone on Rails
 title: Rereadit
