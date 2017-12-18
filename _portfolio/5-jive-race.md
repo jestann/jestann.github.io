@@ -5,7 +5,7 @@ img: jive-race.png
 img-alt: Jive Race is a race app on React and the Jive Race API
 title: Jive Race
 subtitle: Team-building race app on React
-description: Jive Race is built on the Jive Race API. Users can register for races and create and build teams of runners.
+description: Jive Race is built on the Jive Race API. Users can register for races and create and build teams of runners. Custom-built responsive React components.
 project-date: still in development
 framework: React, AWS
 repository: jive-race
