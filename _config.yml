@@ -32,7 +32,6 @@ collections:
     output: true
   pages:
     output: true
-google_analytics: UA-89833931-1 # Tracking ID
 
 # Pagination
 # plugins: [jekyll-paginate]
