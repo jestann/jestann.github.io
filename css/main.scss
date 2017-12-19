@@ -10,12 +10,12 @@
 
 /* Elements */
 @import 'elements/buttons.scss';
-@import 'elements/navbar.scss';
 @import 'elements/section.scss';
-@import 'elements/navbar-reg.scss';
 @import 'elements/post.scss';
 
 /* Includes */
+@import 'includes/navbar.scss';
+@import 'includes/navbar-reg.scss';
 @import 'includes/header.scss';
 @import 'includes/about.scss';
 @import 'includes/tech.scss';
