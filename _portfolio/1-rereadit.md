@@ -11,3 +11,7 @@ framework: Ruby on Rails, Bootstrap, Bcrypt, Figaro, SendGrid
 repository: rereadit
 link: https://github.com/jestann/rereadit 
 ---
+
+- Used test-driven development to design and build a social media experience.
+- Built visual and database functionality for topics, posts, commenting, favoriting, voting.
+- Integrated email subscription using SendGrid.
