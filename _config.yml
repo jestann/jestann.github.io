@@ -32,6 +32,7 @@ collections:
     output: true
   pages:
     output: true
+google_analytics: UA-89833931-1 # Tracking ID
 
 # Pagination
 # plugins: [jekyll-paginate]
@@ -40,6 +41,4 @@ collections:
 # str_next: ">>"
 # str_prev: "<<"
 
-# Scripts
-# google_analytics: UA-89833931-1 # Tracking ID, e.g. "UA-000000-01"
 # katex: true # Enable if using math markup
