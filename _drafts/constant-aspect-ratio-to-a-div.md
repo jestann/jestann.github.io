@@ -6,7 +6,7 @@ date:
 
 12.15.17
 
-I found the 
+Post to be finished.
 
 Until I found this trick...
 
