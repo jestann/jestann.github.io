@@ -15,3 +15,4 @@ link: https://github.com/jestann/jive-race
 - Created full-stack application on MongoDB, Mongoose, Express, Node.js, and React.
 - Built custom authentication and authorization schemes and designed database schema.
 - Created responsive user experience built on custom React components.
+- Integrated with Bootstrap and Sass.
