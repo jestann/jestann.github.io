@@ -15,3 +15,8 @@ link: https://github.com/jestann/collab
 - Built custom authorization scheme with differentiated permissions via Devise, Pundit, Bcrypt.
 - Built integrated payment system via Stripe. Integrated markdown rendering with Redcarpet.
 - Built test environment with Rspec, Shoulda, Faker, FactoryGirl.
+
+Wiki collaboration app on rails
+Built custom authorization scheme with differentiated permissions via Devise, Pundit, Bcrypt. Built integrated payment system via Stripe. 
+Designed test environment with Rspec, Shoulda, Faker, FactoryGirl
+Created responsive user experience using Bootstrap.

@@ -16,3 +16,9 @@ link: https://github.com/jestann/jive-race
 - Built custom authentication and authorization schemes and designed database schema.
 - Created responsive user experience built on custom React components.
 - Integrated with Bootstrap and Sass.
+- 
+Developed on React, Express, Node.js, and MongoDB stack.
+Built custom JWT authentication and authorization schemes in response to complex business logic requirements.
+Designed database schema on performance considerations.
+Created responsive user experience with custom React components.
+
