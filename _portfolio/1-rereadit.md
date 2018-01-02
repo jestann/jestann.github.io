@@ -15,6 +15,7 @@ link: https://github.com/jestann/rereadit
 - Used test-driven development to design and build a social media experience.
 - Built visual and database functionality for topics, posts, commenting, favoriting, voting.
 - Integrated email subscription using SendGrid.
+- update content
 
 Discussion-based social media app on rails.
 Used test-driven development to design and build a social media experience featuring topics, posts, commenting, favoriting, voting.
