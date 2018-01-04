@@ -12,6 +12,8 @@ repository: collab
 link: https://github.com/jestann/collab 
 ---
 
+update this
+
 - Built custom authorization scheme with differentiated permissions via Devise, Pundit, Bcrypt.
 - Built integrated payment system via Stripe. Integrated markdown rendering with Redcarpet.
 - Built test environment with Rspec, Shoulda, Faker, FactoryGirl.
