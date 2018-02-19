@@ -5,7 +5,7 @@ date: 09-12-2017
 excerpted: I am a full stack web developer, inspired by new technology and drawn to the connection between people and machines. 
 ---
 
-I am a full stack web developer, inspired by new technology and drawn to the connection between people and machines. 
+I'm a full stack developer, inspired by new technology and drawn to the connection between people and machines. 
 
 I have experience with the React and Angular frameworks as well as the Node/Express/MongoDB and Ruby on Rails stacks. I went to graduate school in business, but I also have a minor in Mathematics. I've done coursework in algorithms, computer architecture, statistics, and circuitry, and I did graduate level work in business strategy, marketing, and finance. I also have a background in dance, theater, and writing. 
 
