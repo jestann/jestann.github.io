@@ -1,1 +1,3 @@
-.bashrc
+# jekyll build files
+.jekyll-cache
+_site
